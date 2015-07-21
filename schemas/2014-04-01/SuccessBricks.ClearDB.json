@@ -1,5 +1,5 @@
 ﻿{
-  "id": "http://schema.management.azure.com/schemas/2014-04-01/SuccessBricks.ClearDB.json",
+  "id": "http://hindenes.com/files/armschema/schemas/2014-04-01/SuccessBricks.ClearDB.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "SuccessBricks.ClearDB",
   "description": "SuccessBricks ClearDB Resource Types",
@@ -23,7 +23,7 @@
                     "name": {
                         "oneOf": [
                             {
-                                "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                             },
                             {
                                 "enum": [

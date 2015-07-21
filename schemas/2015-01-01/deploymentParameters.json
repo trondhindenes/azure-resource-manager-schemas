@@ -1,5 +1,5 @@
 {
-    "id": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters#",
+    "id": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentParameters#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Parameters",
     "description": "An Azure deployment parameter file",
@@ -31,7 +31,7 @@
             "type": "object",
             "properties": {
                 "value": {
-                    "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/parameterValueTypes",
+                    "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/parameterValueTypes",
                     "description": "Input value to template"
                 },
                 "metadata": {

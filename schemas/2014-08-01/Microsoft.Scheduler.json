@@ -1,5 +1,5 @@
 ﻿{
-    "id": "http://schema.management.azure.com/schemas/2014-08-01/Microsoft.Scheduler.json",
+    "id": "http://hindenes.com/files/armschema/schemas/2014-08-01/Microsoft.Scheduler.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.Scheduler",
     "description": "Microsoft Scheduler Resource Types",
@@ -56,7 +56,7 @@
                     "type": "array",
                     "items": {
                         "allOf": [
-                            { "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/resourceBase" },
+                            { "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/resourceBase" },
                             {
                                 "anyOf": [
                                     { "$ref": "#/definitions/jobs" }

@@ -1,5 +1,5 @@
 ﻿{
-    "id": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.BizTalkServices.json",
+    "id": "http://hindenes.com/files/armschema/schemas/2014-04-01/Microsoft.BizTalkServices.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.BizTalkServices",
     "description": "Microsoft BizTalk Services Resource Types",
@@ -26,7 +26,7 @@
                                 "name": {
                                     "oneOf": [
                                         {
-                                            "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                            "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                         },
                                         {
                                             "enum": [
@@ -39,7 +39,7 @@
                                 "unitCount": {
                                     "oneOf": [
                                         {
-                                            "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                            "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                         },
                                         {
                                             "type": "integer",
@@ -66,7 +66,7 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/resourceBase"
+                                "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/resourceBase"
                             },
                             {
                                 "oneOf": [
@@ -110,7 +110,7 @@
                         "port": {
                             "oneOf": [
                                 {
-                                    "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                    "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                 },
                                 {
                                     "type": "integer",

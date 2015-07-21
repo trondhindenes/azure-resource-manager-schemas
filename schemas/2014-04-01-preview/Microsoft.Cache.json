@@ -1,5 +1,5 @@
 ﻿{
-    "id": "http://schema.management.azure.com/schemas/2014-04-01-preview/Microsoft.Cache.json",
+    "id": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/Microsoft.Cache.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.Cache",
     "description": "Microsoft Cache Resource Types",
@@ -32,7 +32,7 @@
                                             ]
                                         },
                                         {
-                                            "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                            "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                         }
                                     ],
                                     "description": "Microsoft.Cache/Redis: sku/name"
@@ -46,7 +46,7 @@
                                             "default": "C"
                                         },
                                         {
-                                            "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                            "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                         }
                                     ],
                                     "description": "Microsoft.Cache/Redis: sku/size"
@@ -57,7 +57,7 @@
                                             "enum": [ 0, 1, 2, 3, 4, 5, 6 ]
                                         },
                                         {
-                                            "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                            "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                         }
                                     ],
                                     "description": "Microsoft.Cache/Redis: sku/capacity"
@@ -77,7 +77,7 @@
                                     ]
                                 },
                                 {
-                                    "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                    "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                 }
                             ],
                             "description": "Microsoft.Cache/Redis: version of Redis"
@@ -85,7 +85,7 @@
                         "maxMemoryPolicy": {
                             "oneOf": [
                                 {
-                                    "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                    "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                 },
                                 {
                                     "enum": [
@@ -108,7 +108,7 @@
                                     "default": false
                                 },
                                 {
-                                    "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                    "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                 }
                             ],
                             "description": "Microsoft.Cache/Redis enableNonSslPort. Enables less secure direct access to redis on port 6379 WITHOUT SSL tunneling."

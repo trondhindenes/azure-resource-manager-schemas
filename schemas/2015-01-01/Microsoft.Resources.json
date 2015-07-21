@@ -1,5 +1,5 @@
 ﻿{
-    "id": "http://schema.management.azure.com/schemas/2015-01-01/Microsoft.Resources.json",
+    "id": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Resources.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.Resources",
     "description": "Microsoft Resources Resource Types",
@@ -76,7 +76,7 @@
                                         "parameters": {
                                             "type": "object",
                                             "additionalProperties": {
-                                                "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#/definitions/parameter"
+                                                "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentParameters.json#/definitions/parameter"
                                             }
                                         }
                                     }

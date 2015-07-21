@@ -1,5 +1,5 @@
 ﻿{
-  "id": "http://schema.management.azure.com/schemas/2014-02-26/microsoft.visualstudio.json",
+  "id": "http://hindenes.com/files/armschema/schemas/2014-02-26/microsoft.visualstudio.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "microsoft.visualstudio",
   "description": "Visual Studio Online Account and Project Resource",
@@ -35,7 +35,7 @@
                 "items": {
                     "allOf": [
                         {
-                            "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/resourceBase" 
+                            "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/resourceBase" 
                         },
                         {
                         "$ref": "#/definitions/project"

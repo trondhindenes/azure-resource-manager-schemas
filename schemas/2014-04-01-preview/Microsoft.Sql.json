@@ -1,5 +1,5 @@
 ﻿{
-    "id": "http://schema.management.azure.com/schemas/2014-04-01-preview/Microsoft.Sql.json#",
+    "id": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/Microsoft.Sql.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.SQLDatabase",
     "description": "Microsoft SQL Database Resource Types",
@@ -46,13 +46,13 @@
                     "items": {
                         "allOf": [
                             {
-                                "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/resourceBase"
+                                "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/resourceBase"
                             },
                             {
                                 "oneOf": [
-                                    { "$ref": "http://schema.management.azure.com/schemas/2014-10-01-preview/Microsoft.Authorization.json#/definitions/roleAssignments" },
-                                    { "$ref": "http://schema.management.azure.com/schemas/2015-01-01/Microsoft.Authorization.json#/definitions/locks" },
-                                    { "$ref": "http://schema.management.azure.com/schemas/2015-01-01/Microsoft.Resources.json#/definitions/links" },
+                                    { "$ref": "http://hindenes.com/files/armschema/schemas/2014-10-01-preview/Microsoft.Authorization.json#/definitions/roleAssignments" },
+                                    { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Authorization.json#/definitions/locks" },
+                                    { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Resources.json#/definitions/links" },
                                     { "$ref": "#/definitions/databasesChild" },
                                     { "$ref": "#/definitions/firewallrulesChild" }
                                 ]
@@ -74,7 +74,7 @@
                 "edition": {
                     "oneOf": [
                         {
-                            "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                            "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                             "enum": [
@@ -91,7 +91,7 @@
                 "collation": {
                     "oneOf": [
                         {
-                            "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                            "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                             "enum": [
@@ -173,7 +173,7 @@
                 "maxSizeBytes": {
                     "oneOf": [
                         {
-                            "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                            "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                             "enum": [
@@ -202,7 +202,7 @@
                 "requestedServiceObjectiveId": {
                     "oneOf": [
                         {
-                            "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                            "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                             "enum": [
@@ -228,7 +228,7 @@
                 "createMode": {
                     "oneOf": [
                         {
-                            "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
+                            "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/expression"
                         },
                         {
                             "enum": [
@@ -248,11 +248,11 @@
                     "description": "Microsoft.Sql/server/databases: The URI of the source database."
                 },
                 "restorePointInTime": {
-                    "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/UTC",
+                    "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/UTC",
                     "description": "Microsoft.Sql/server/databases: The point in time for the restore."
                 },
                 "sourceDatabaseDeletionDate": {
-                    "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/UTC",
+                    "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/UTC",
                     "description": "Microsoft.Sql/server/databases: The deletion date time of the source database."
                 }
 

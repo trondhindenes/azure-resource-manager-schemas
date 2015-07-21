@@ -1,5 +1,5 @@
 ﻿{
-  "id": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.Insights.json#",
+  "id": "http://hindenes.com/files/armschema/schemas/2014-04-01/Microsoft.Insights.json#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Microsoft.Insights",
   "description": "Microsoft Insights Types",
@@ -41,7 +41,7 @@
                                 "type":"boolean" 
                             },
                             { 
-                                "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                             }
                         ],
                         "description": "Microsoft.Insights/alertrules: Indicates whether the alert rule is enabled."
@@ -52,7 +52,7 @@
                             "odata.type" : {
                                 "oneOf": [
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     },
                                     {
                                         "enum": [
@@ -69,7 +69,7 @@
                                     "odata.type" : {
                                         "oneOf": [
                                             {
-                                                "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                             },
                                             {
                                                 "enum": [
@@ -90,7 +90,7 @@
                                     "metricNamespace" : {
                                         "oneOf": [
                                             {
-                                                "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                             },
                                             {
                                                 "enum": [
@@ -106,7 +106,7 @@
                             "operator": {
                                 "oneOf": [
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     },
                                     {
                                         "enum": [
@@ -126,7 +126,7 @@
                                         "minimum": 0
                                     },
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     }
                                 ],
                                 "description": "Microsoft.Insights/alertrules: The threshold value that activates the alert. Only for ThresholdRuleConditions."
@@ -138,7 +138,7 @@
                                         "minimum": 0
                                     },
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     }
                                 ],
                                 "description": "Microsoft.Insights/alertrules: The number of locations that must fail to activate the alert. Only for LocationThresholdRuleConditions."
@@ -146,10 +146,10 @@
                             "windowSize": {
                                 "oneOf": [
                                     {
-                                        "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
+                                        "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
                                     },
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     }
                                 ],
                                 "description": "Microsoft.Insights/alertrules: The period of time that is used to monitor alert activity based on the threshold. Must be between 5 minutes and 1 day. ISO 8601 duration format."
@@ -163,7 +163,7 @@
                             "odata.type" : {
                                 "oneOf": [
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     },
                                     {
                                         "enum": [
@@ -176,7 +176,7 @@
                             "sendToServiceOwners" : {
                                 "oneOf": [
                                     {
-                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                     },
                                     {
                                         "type": "boolean"
@@ -359,7 +359,7 @@
                                         "minimum": {
                                             "oneOf": [
                                                 {
-                                                    "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                    "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                 },
                                                 {
                                                     "type": "integer",
@@ -371,7 +371,7 @@
                                         "maximum": {
                                             "oneOf": [
                                                 {
-                                                    "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                    "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                 },
                                                 {
                                                     "type": "integer",
@@ -383,7 +383,7 @@
                                         "default": {
                                             "oneOf": [
                                                 {
-                                                    "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                    "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                 },
                                                 {
                                                     "type": "integer",
@@ -416,10 +416,10 @@
                                                             "timeGrain": {
                                                                 "oneOf": [
                                                                     {
-                                                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                                     },
                                                                     {
-                                                                        "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
+                                                                        "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
                                                                     }
                                                                 ],
                                                                 "description": "Microsoft.Insights/autoscalesettings: The granularity of metrics the rule monitors. Must be one of the predefined values returned from metric definitions for the metric. Must be between 12 hours and 1 minute. ISO 8601 duration format."
@@ -436,10 +436,10 @@
                                                             "timeWindow": {
                                                                 "oneOf": [
                                                                     {
-                                                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                                     },
                                                                     {
-                                                                        "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
+                                                                        "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
                                                                     }
                                                                 ],
                                                                 "description": "Microsoft.Insights/autoscalesettings: The range of time in which instance data is collected. This value must be greater than the delay in metric collection, which can vary from resource-to-resource. Must be between 12 hours and 5 minutes. ISO 8601 duration format."
@@ -469,7 +469,7 @@
                                                             "threshold": {
                                                                 "oneOf": [
                                                                     {
-                                                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                                     },
                                                                     {
                                                                         "type": "number",
@@ -505,7 +505,7 @@
                                                             "value": {
                                                                 "oneOf": [
                                                                     {
-                                                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                                     },
                                                                     {
                                                                         "type": "integer",
@@ -517,10 +517,10 @@
                                                             "cooldown": {
                                                                 "oneOf": [
                                                                     {
-                                                                        "$ref":  "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
+                                                                        "$ref":  "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/expression"
                                                                     },
                                                                     {
-                                                                        "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
+                                                                        "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/deploymentTemplate.json#/definitions/Iso8601Duration"
                                                                     }
                                                                 ],
                                                                 "description": "Microsoft.Insights/autoscalesettings: The amount of time to wait since the last scaling action before this action occurs. Must be between 1 week and 1 minute. ISO 8601 duration format."
