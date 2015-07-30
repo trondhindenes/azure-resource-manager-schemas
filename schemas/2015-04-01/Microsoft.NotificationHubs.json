@@ -1,5 +1,5 @@
 {
-    "id": "http://schema.management.azure.com/schemas/2015-04-01/Microsoft.NotificationHubs.json",
+    "id": "http://hindenes.com/files/armschema/schemas/2015-04-01/Microsoft.NotificationHubs.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Microsoft.NotificationHubs",
     "description": "Microsoft Notification Hubs",
@@ -26,7 +26,7 @@
                         },
                             "namespaceType": {
                             "enum": [
-                                "NotificationHub"                                    
+                                "NotificationHub"
                             ],
                             "description": "Microsoft.NotificationHubs/namespaces: The type of the namespace"
                         }
@@ -39,7 +39,7 @@
                     "type": "array",
                     "items": {
                         "allOf": [
-                            { "$ref": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#/definitions/resourceBase" },
+                            { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/deploymentTemplate.json#/definitions/resourceBase" },
                             {
                                 "anyOf": [
                                     { "$ref": "#/definitions/notificationHubs" }
@@ -133,7 +133,7 @@
                                 "certificateKey" : {
                                     "type": "string",
                                     "description" : "Microsoft.NotificationHubs/namespaces/notificationHubs: The Certificate Key provided by the Windows Phone Portal when registering the application"
-                                }                            
+                                }
                             },
                             "description": "Microsoft.NotificationHubs/namespaces/notificationHubs: MPNS credentials for a Notification Hub."
                         },
@@ -187,18 +187,18 @@
                                 "secondaryKey" : {
                                     "type": "string",
                                     "description" : "Microsoft.NotificationHubs/namespaces/notificationHubs:  Authorization Rule Secondary Key Value"
-                                }, 
-                                "rights" : {                                    
+                                },
+                                "rights" : {
                                     "enum": [
                                         "Send",
                                         "Manage",
                                         "Listen"
                                     ],
                                     "description" : "Microsoft.NotificationHubs/namespaces/notificationHubs: Authorization Rule Rights"
-                                }                        
+                                }
                             },
                             "description" : "Microsoft.NotificationHubs/namespaces/notificationHubs: Authorization Rules for a Notification Hub."
-                        }                        
+                        }
                     }
                 }
             },
@@ -208,6 +208,6 @@
                 "properties"
             ],
             "description": "Microsoft.NotificationHubs/namespaces/notificationHubs resource"
-        }        
+        }
     }
 }
