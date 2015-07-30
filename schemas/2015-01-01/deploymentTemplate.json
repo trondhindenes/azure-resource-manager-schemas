@@ -39,6 +39,7 @@
                             },
                             {
                                 "oneOf": [
+<<<<<<< HEAD
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2014-06-01/Microsoft.Web.json#/definitions/certificates" },
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2014-06-01/Microsoft.Web.json#/definitions/serverfarms" },
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/Microsoft.Sql.json#/definitions/databases" },
@@ -54,6 +55,32 @@
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2015-03-01-preview/Microsoft.AppService.json#/definitions/apiapps" },
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2015-03-01-preview/Microsoft.AppService.json#/definitions/registrations" },
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Compute.json#/definitions/extensions" }
+=======
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-06-01/Microsoft.Web.json#/definitions/certificates" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-06-01/Microsoft.Web.json#/definitions/serverfarms" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/Microsoft.Sql.json#/definitions/databases" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/Microsoft.Sql.json#/definitions/firewallrules" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.Insights.json#/definitions/alertrules" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.Insights.json#/definitions/components" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.Insights.json#/definitions/autoscalesettings" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.Insights.json#/definitions/webtests" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-02-26/microsoft.visualstudio.json#/definitions/account" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/Microsoft.Cache.json#/definitions/Redis" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.BizTalkServices.json#/definitions/BizTalk" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01/Microsoft.BizTalkServices.json#/definitions/HybridConnection" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.AppService.json#/definitions/apiapps" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.AppService.json#/definitions/registrations" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-04-01/Microsoft.NotificationHubs.json#/definitions/notificationHubs" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01-preview/Microsoft.DataConnect.json#/definitions/connectionManagers" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Network.json#/definitions/publicIPAddresses" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Network.json#/definitions/virtualNetworks" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Network.json#/definitions/loadBalancers" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Network.json#/definitions/networkSecurityGroups" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Network.json#/definitions/networkInterfaces" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Storage.json#/definitions/storageAccounts" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Compute.json#/definitions/availabilitySets" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Compute.json#/definitions/extensions" }
+>>>>>>> fromupstream
                                 ]
                             }
                         ]
@@ -65,6 +92,7 @@
                             },
                             {
                                 "oneOf": [
+<<<<<<< HEAD
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2014-06-01/Microsoft.Web.json#/definitions/sites" },
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2014-04-01-preview/Microsoft.Sql.json#/definitions/servers" },
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2014-08-01/Microsoft.Scheduler.json#/definitions/jobCollections" },
@@ -77,6 +105,14 @@
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Network.json#/definitions/virtualNetworks"},
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Network.json#/definitions/loadBalancers"},
                                     { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Network.json#/definitions/networkSecurityGroups"}
+=======
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-06-01/Microsoft.Web.json#/definitions/sites" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-04-01-preview/Microsoft.Sql.json#/definitions/servers" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2014-08-01/Microsoft.Scheduler.json#/definitions/jobCollections" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-03-01-preview/Microsoft.AppService.json#/definitions/gateways" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-04-01/Microsoft.NotificationHubs.json#/definitions/namespaces" },
+                                    { "$ref": "http://schema.management.azure.com/schemas/2015-08-01/Microsoft.Compute.json#/definitions/virtualMachines" }
+>>>>>>> fromupstream
                                 ]
                             }
                         ]
@@ -208,6 +244,9 @@
                         "tags": {
                             "type": "object",
                             "description": "Name-value pairs to add to the resource"
+                        },
+                        "plan": {
+                            "$ref": "#/definitions/resourcePlan"
                         }
                     },
                     "required": [
@@ -217,47 +256,8 @@
             ]
         },
         "resourceBaseExternal": {
-            "allOf": [
-                {
-                    "$ref": "#/definitions/resourceBaseForParentResources"
-                },
-                {
-                    "properties": {
-                        "plan": {
-                            "type": "object",
-                            "properties": {
-                                "name": {
-                                    "type": "string",
-                                    "description": "Name of the plan"
-                                },
-                                "promotionCode": {
-                                    "type": "string",
-                                    "description": "Plan promotion code"
-                                },
-                                "publisher": {
-                                    "type": "string",
-                                    "description": "Name of the publisher"
-                                },
-                                "product": {
-                                    "type": "string",
-                                    "description": "Name of the product"
-                                }
-                            },
-                            "required": [
-                                "name"
-                            ],
-                            "description": "3rd party plan"
-                        },
-                        "resources": { 
-                            "$ref": "#/definitions/childResources"
-                        }
-                    }
-                }
-            ],
-            "required": [
-                "name",
-                "type",
-                "apiVersion",
+            "$ref": "#/definitions/resourceBase",
+            "required": [ 
                 "plan"
             ]
         },
@@ -273,6 +273,31 @@
                 { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Authorization.json#/definitions/locks" },
                 { "$ref": "http://hindenes.com/files/armschema/schemas/2015-01-01/Microsoft.Resources.json#/definitions/links" }
             ]
+        },
+        "resourcePlan": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "description": "Name of the plan"
+                },
+                "promotionCode": {
+                    "type": "string",
+                    "description": "Plan promotion code"
+                },
+                "publisher": {
+                    "type": "string",
+                    "description": "Name of the publisher"
+                },
+                "product": {
+                    "type": "string",
+                    "description": "Name of the product"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "description": "Plan of the resource"
         },
         "resourceLocations": {
             "anyOf": [
@@ -295,7 +320,10 @@
                         "Japan East",
                         "Brazil South",
                         "Australia East",
-                        "Australia Southeast"
+                        "Australia Southeast",
+                        "Central India",
+                        "West India",
+                        "South India"
                     ]
                 }
             ]
