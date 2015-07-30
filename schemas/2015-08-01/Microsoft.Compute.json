@@ -99,7 +99,14 @@
                     "$ref": "#/definitions/vhd"
                 },
                 "caching": {
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "enum": [ "ReadOnly","ReadWrite"]
+                        }
+                    ]
                 },
                 "createOption": {
                     "anyOf": [
@@ -146,7 +153,15 @@
                     "$ref": "#/definitions/vhdUri"
                 },
                 "createOption": {
-                    "type": "string"
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "enum": [ "attach", "empty", "fromImage" ]        
+                        }
+                    ]
+                    
                 }
             },
             "type": "object",
